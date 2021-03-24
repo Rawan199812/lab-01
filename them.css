@@ -1,0 +1,123 @@
+/* mobile viewport */
+@media  (max-width : 767px){
+
+#subContainer-1 div {
+    background-color: rgb(165, 136, 112);
+}
+#subContainer-1 div:last-of-type{
+    background-color: rgb(248, 221, 221);
+}
+#subContainer-2 div {
+    
+    background-color: rgb(202, 176, 209);
+    
+}
+#subContainer-2 div:nth-of-type(2){
+    background-color: rgb(173, 211, 173);
+}
+#subContainer-2 div:nth-of-type(3){
+    background-color: rgb(175, 141, 125);
+}
+#subContainer-2 div:nth-of-type(4){
+    background-color: rgb(70, 86, 94);
+}
+header{
+   
+    background-color: rgb(172, 156, 187);
+}
+aside{
+
+    background-color: rgb(124, 100, 100);       
+}
+
+footer{
+
+    background-color: rgb(110, 110, 173);
+    border: rgb(172, 118, 118) 1px solid;
+}
+
+}
+/* tablet viwport */
+
+@media  (min-width:768px ) {
+
+    #subContainer-1 div {
+        background-color: rgb(243, 162, 159);
+    }
+    #subContainer-1 div:last-of-type{
+        background-color: rgb(161, 97, 97);
+    }
+    #subContainer-2 div {
+        
+        background-color: rgb(209, 209, 176);
+        
+    }
+    #subContainer-2 div:nth-of-type(2){
+        background-color: rgb(181, 224, 181);
+    }
+    #subContainer-2 div:nth-of-type(3){
+        background-color: rgb(176, 224, 238);
+    }
+    #subContainer-2 div:nth-of-type(4){
+        background-color: rgb(216, 163, 209);
+    }
+    header{
+       
+        background-color: rgb(94, 108, 109);
+    }
+    aside{
+    
+        background-color: rgb(187, 179, 156);       
+    }
+    
+    footer{
+    
+        background-color: rgb(144, 187, 162);
+        border: rgb(240, 118, 118) 1px solid;
+    }
+    
+    }
+    @media  (min-width : 960px){
+
+        #subContainer-1 div {
+            background-color: rgb(243, 162, 159);
+        }
+        #subContainer-1 div:last-of-type{
+            background-color: rgb(161, 97, 97);
+        }
+        #subContainer-2 div {
+            
+            background-color: rgb(209, 209, 176);
+            
+        }
+        #subContainer-2 div:nth-of-type(2){
+            background-color: rgb(181, 224, 181);
+        }
+        #subContainer-2 div:nth-of-type(3){
+            background-color: rgb(176, 224, 238);
+        }
+        #subContainer-2 div:nth-of-type(4){
+            background-color: rgb(216, 163, 209);
+        }
+        header{
+           
+            background-color: rgb(94, 108, 109);
+        }
+        aside{
+        
+            background-color: rgb(187, 179, 156);       
+        }
+        
+        footer{
+        
+            background-color: rgb(144, 187, 162);
+            border: rgb(240, 118, 118) 1px solid;
+        }
+        
+        }
+    
+
+
+
+
+
