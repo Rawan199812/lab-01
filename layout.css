@@ -70,7 +70,6 @@ header{
         order: 1;
         width: 960px;
         height: 100px;
-        background-color: #a58bc2;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -85,7 +84,6 @@ aside{
         order: 1;
         width: 200px;
         height: 600px;
-        background-color: #1b0918;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -108,14 +106,66 @@ display: flex;
 footer{
     order: 3;
     width: 760px;
-    background-color: #443831;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 150px;
-    border: rgb(177, 66, 66) 1px solid;
 
 }
       
 
 }
+
+
+@media  (min-width:960px ) {
+    #containerAll{
+      display: flex;  
+      flex-direction: column;
+    }
+    
+    header{
+        order: 1;
+        width: 960px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        order: 2;
+        display: flex;
+    }
+    aside{
+        order: 1;
+        width: 200px;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #subContainer{
+        order: 2;
+        width: 760px;
+        display: flex;
+        flex-direction: column;
+    }
+    #subContainer-1{
+        width: 760px;
+        order: 1;
+        display: flex;
+    }
+    #subContainer-2{
+    order: 2;
+    display: flex;
+    }
+    footer{
+        order: 3;
+        width: 760px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        border: black 1px solid;
+    
+    }
+    }
