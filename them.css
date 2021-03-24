@@ -39,7 +39,7 @@ footer{
 }
 /* tablet viwport */
 
-@media  (min-width:768px ) {
+@media  (min-width:768px ) and (max-width : 960px) {
 
     #subContainer-1 div {
         background-color: rgb(243, 162, 159);
@@ -80,10 +80,10 @@ footer{
     @media  (min-width : 960px){
 
         #subContainer-1 div {
-            background-color: rgb(243, 162, 159);
+            background-color: rgb(117, 62, 60);
         }
         #subContainer-1 div:last-of-type{
-            background-color: rgb(161, 97, 97);
+            background-color: rgb(126, 128, 126);
         }
         #subContainer-2 div {
             
@@ -91,21 +91,21 @@ footer{
             
         }
         #subContainer-2 div:nth-of-type(2){
-            background-color: rgb(181, 224, 181);
+            background-color: rgb(56, 65, 56);
         }
         #subContainer-2 div:nth-of-type(3){
-            background-color: rgb(176, 224, 238);
+            background-color: rgb(40, 54, 58);
         }
         #subContainer-2 div:nth-of-type(4){
-            background-color: rgb(216, 163, 209);
+            background-color: rgb(145, 156, 129);
         }
         header{
            
-            background-color: rgb(94, 108, 109);
+            background-color: rgb(143, 241, 248);
         }
         aside{
         
-            background-color: rgb(187, 179, 156);       
+            background-color: rgb(82, 76, 61);       
         }
         
         footer{
